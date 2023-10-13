@@ -1,1 +1,2 @@
-# goit-markup-hw-05
+# goit-markup-homework-06
+modal and forms
