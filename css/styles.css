@@ -520,12 +520,16 @@ footer i {
     background-color: white;
     margin-top: 80px;
     position: fixed;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button {
     position: absolute;
     top: 24px;
     left: 360px;
     cursor: pointer;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }  
 .close {
     fill: var(--GRAY);
@@ -551,6 +555,8 @@ footer i {
     align-items: flex-start;
     gap: 8px;
     padding: 0 24px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inputs input {
@@ -616,12 +622,24 @@ footer i {
     margin: 0 0 10px 0px;
 }
 
+.checkbox label{
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .checkbox input{
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.5);
     width: 16px;
     height: 16px;
     cursor: pointer;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox a {
@@ -635,14 +653,6 @@ footer i {
 }
 
     /* MODAL BUTTON  */
-.checkbox label{
-    color: #8E8F99;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
-}
 
 #modal-button {
     margin: 0px 105px 20px 100px;
@@ -659,6 +669,8 @@ footer i {
     padding: 16px 32px;
     border: none;
     cursor: pointer;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #modal-button:hover {
